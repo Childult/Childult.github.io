@@ -217,6 +217,18 @@
         </li>
       
         
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />Tags</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-th"></i> <br />Categories</a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archives</a>
@@ -263,7 +275,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/02/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/14/Ubuntu踩坑系列-安装/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Childult">
@@ -282,7 +294,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/03/02/hello-world/" itemprop="url">Hello World</a></h1>
+                <a class="post-title-link" href="/2018/03/14/Ubuntu踩坑系列-安装/" itemprop="url">Ubuntu踩坑系列 | 安装</a></h1>
         
 
         <div class="post-meta">
@@ -294,7 +306,165 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-02T18:13:17+08:00">2018-03-02</time>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-14T22:45:07+08:00">2018-03-14</time>
+            
+
+            
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Coding/" itemprop="url" rel="index"><span itemprop="name">Coding</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="下载iso文件"><a href="#下载iso文件" class="headerlink" title="下载iso文件"></a>下载iso文件</h3><p>如果官网下载较慢可以选择国内的镜像：<br><a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" rel="noopener">清华大学开源软件镜像站</a><br><a href="http://mirrors.ustc.edu.cn/" target="_blank" rel="noopener">USTC Mirror</a><br>类似还有很多，不一一列举了。</p>
+<h3 id="制作安装U盘"><a href="#制作安装U盘" class="headerlink" title="制作安装U盘"></a>制作安装U盘</h3><p>UltraISO就可以，可以免费试用。</p>
+<ol>
+<li>安装完成后打开UltraISO</li>
+<li><code>文件</code>-&gt;<code>打开</code>，找到下载好的iso文件</li>
+<li><code>启动</code>-&gt;写入硬盘映像…</li>
+<li>点击<code>写入</code></li>
+</ol>
+<p><strong>制作的同时会把U盘格式化，记得备份重要文件。</strong><br><strong>如果安装完成后需要重新格式化U盘，在磁盘管理选项中右键盘符选择格式化。注意要选择fat格式！！！</strong></p>
+<h3 id="划分硬盘空间"><a href="#划分硬盘空间" class="headerlink" title="划分硬盘空间"></a>划分硬盘空间</h3><p>进入磁盘管理，在需要划分出来的盘符上右键选择<code>压缩卷</code>，大小看自己需要定。成功后该段空间将变为黑色，状态变为<code>未分配</code></p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><ol>
+<li>进入BIOS关闭快速启动(Fast Boot)。这一步各品牌的电脑具体操作不一样，请自行百度。</li>
+<li>开机狂按F9进入启动顺序菜单（惠普是F9，其他品牌不清楚，同样需要自行百度）</li>
+<li>进入安装菜单，选择<code>Install Ubuntu</code>或<code>try Ubuntu before installing</code>均可。</li>
+<li>安装前的各种设置，看个人需要自行选择。在<code>安装选项</code>页面选第一项<code>与其他系统共存</code>，有经验可以选择最后一项自己定。</li>
+</ol>
+<h3 id="安装成功"><a href="#安装成功" class="headerlink" title="安装成功"></a>安装成功</h3><p>完毕后点<code>现在重启</code>，重启后进入grub菜单，默认第一项是Ubuntu。<br>Enjoy your trip:)</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/14/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Childult">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="某在斯">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/03/14/hello-world/" itemprop="url">Hello World</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-14T22:28:12+08:00">2018-03-14</time>
             
 
             
@@ -423,14 +593,40 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
               
 
               
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">categories</span>
+                  </a>
+                </div>
+              
 
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">tags</span>
+                  
+                </div>
               
             </nav>
           
